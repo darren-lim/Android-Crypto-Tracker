@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">EthTracker</string>
+    <string name="app_name">Eth Gas Tracker</string>
+    <string name="confirmation_time">Est. Confirmation Time</string>
 </resources>
