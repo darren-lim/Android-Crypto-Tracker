@@ -1,4 +1,4 @@
-package com.cryptoproject.ethtracker
+package com.example.cryptotracker
 
 import org.junit.Test
 
