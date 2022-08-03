@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Crypto Tracker</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_watchlist">Watchlist</string>
+    <string name="title_eth_gas">Eth Gas</string>
+    <string name="title_crypto_view">View Currency</string>
 </resources>

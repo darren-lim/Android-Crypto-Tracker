@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/dartr/OneDrive/Documents/github/Android-Crypto-Tracker/app/src/main/res/layout/activity_main.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/dartr/OneDrive/Documents/github/Android-Crypto-Tracker/app/src/main/res/layout/fragment_crypto_view.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/dartr/OneDrive/Documents/github/Android-Crypto-Tracker/app/src/main/res/layout/fragment_home.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/dartr/OneDrive/Documents/github/Android-Crypto-Tracker/app/src/main/res/layout/fragment_notifications.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/dartr/OneDrive/Documents/github/Android-Crypto-Tracker/app/src/main/res/layout/fragment_watchlist.xml" value="0.31354166666666666" />
         <entry key="..\:/Users/dartr/OneDrive/Documents/github/Android-Crypto-Tracker/app/src/main/res/menu/bottom_nav_menu.xml" value="0.31354166666666666" />
       </map>
     </option>
