@@ -27,17 +27,18 @@ class HomeFragment : Fragment() {
             ViewModelProvider(this).get(CryptoViewModel::class.java)
 
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
-        val root: View = binding.root
 
 //        val textView: TextView = binding.textHome
 //        cryptoViewModel.text.observe(viewLifecycleOwner) {
 //            textView.text = it
 //        }
-        return root
+        return binding.root
     }
 
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
     }
+
+    // list of crypto here
 }
