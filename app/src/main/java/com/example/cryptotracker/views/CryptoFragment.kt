@@ -1,16 +1,12 @@
-package com.example.cryptotracker.ui.cryptoview
+package com.example.cryptotracker.views
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModel
-import androidx.navigation.fragment.navArgs
-import com.example.cryptotracker.R
 import com.example.cryptotracker.databinding.FragmentCryptoViewBinding
-import com.example.cryptotracker.databinding.FragmentEthGasBinding
-import com.example.cryptotracker.ui.CryptoViewModel
+import com.example.cryptotracker.viewmodels.CryptoViewModel
 
 // show specific crypto data
 class CryptoFragment: Fragment(){

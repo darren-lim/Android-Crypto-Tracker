@@ -1,4 +1,4 @@
-package com.example.cryptotracker.ui.watchlist
+package com.example.cryptotracker.views
 
 import android.os.Bundle
 import android.view.LayoutInflater

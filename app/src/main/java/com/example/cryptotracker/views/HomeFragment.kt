@@ -1,18 +1,21 @@
-package com.example.cryptotracker.ui.home
+package com.example.cryptotracker.views
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
+import android.widget.ProgressBar
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.RecyclerView
 import com.example.cryptotracker.databinding.FragmentHomeBinding
-import com.example.cryptotracker.ui.CryptoViewModel
+import com.example.cryptotracker.viewmodels.CryptoViewModel
 
 class HomeFragment : Fragment() {
 
     private var _binding: FragmentHomeBinding? = null
+    private lateinit var cryptoRecycler: RecyclerView
+    private lateinit var progressBar: ProgressBar
 
     // This property is only valid between onCreateView and
     // onDestroyView.

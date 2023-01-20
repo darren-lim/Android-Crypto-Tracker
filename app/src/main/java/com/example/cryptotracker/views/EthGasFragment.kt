@@ -1,4 +1,4 @@
-package com.example.cryptotracker.ui.ethgas
+package com.example.cryptotracker.views
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.cryptotracker.databinding.FragmentEthGasBinding
+import com.example.cryptotracker.viewmodels.EthGasViewModel
 
 class EthGasFragment : Fragment() {
 

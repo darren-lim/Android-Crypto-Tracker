@@ -1,13 +1,13 @@
-package com.example.cryptotracker.ui.ethgas
+package com.example.cryptotracker.viewmodels
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class EthGasViewModel : ViewModel() {
+class CryptoViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is eth gas Fragment"
+        value = "Crypto Item"
     }
     val text: LiveData<String> = _text
 }

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.cryptotracker.ui.home.HomeFragment"
+        android:name="com.example.cryptotracker.views.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -21,7 +21,7 @@
 
     <fragment
         android:id="@+id/navigation_watchlist"
-        android:name="com.example.cryptotracker.ui.watchlist.WatchlistFragment"
+        android:name="com.example.cryptotracker.views.WatchlistFragment"
         android:label="@string/title_watchlist"
         tools:layout="@layout/fragment_watchlist" >
         <action
@@ -35,13 +35,13 @@
 
     <fragment
         android:id="@+id/navigation_eth_gas"
-        android:name="com.example.cryptotracker.ui.ethgas.EthGasFragment"
+        android:name="com.example.cryptotracker.views.EthGasFragment"
         android:label="@string/title_eth_gas"
         tools:layout="@layout/fragment_eth_gas" />
 
     <fragment
         android:id="@+id/navigation_crypto_view"
-        android:name="com.example.cryptotracker.ui.cryptoview.CryptoFragment"
+        android:name="com.example.cryptotracker.views.CryptoFragment"
         android:label="@string/title_crypto_view"
         tools:layout="@layout/fragment_crypto_view" >
         <argument

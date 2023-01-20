@@ -1,4 +1,4 @@
-package com.example.cryptotracker.ui
+package com.example.cryptotracker.views
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
